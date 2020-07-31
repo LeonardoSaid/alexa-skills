@@ -1,0 +1,90 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "cardápio unifei",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "tchau",
+                        "tá bom obrigado",
+                        "tá bom pare",
+                        "até mais",
+                        "obrigado pare",
+                        "até a próxima"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AlmocoHojeIntent",
+                    "slots": [],
+                    "samples": [
+                        "o que será o almoço hoje",
+                        "o que tem para almoço hoje",
+                        "almoço hoje",
+                        "qual o almoço de hoje"
+                    ]
+                },
+                {
+                    "name": "AlmocoAmanhaIntent",
+                    "slots": [],
+                    "samples": [
+                        "qual será o almoço amanhã",
+                        "o que tem para o almoço amanhã",
+                        "o que será o almoço de amanhã",
+                        "almoço amanhã"
+                    ]
+                },
+                {
+                    "name": "JantarHojeIntent",
+                    "slots": [],
+                    "samples": [
+                        "janta de hoje",
+                        "janta hoje",
+                        "jantar hoje",
+                        "o que tem para jantar hoje",
+                        "qual será o jantar hoje",
+                        "qual o jantar hoje"
+                    ]
+                },
+                {
+                    "name": "JantarAmanhaIntent",
+                    "slots": [],
+                    "samples": [
+                        "janta de amanhã",
+                        "jantar amanhã",
+                        "o que será o jantar amanhã",
+                        "o que tem para jantar amanhã",
+                        "qual será o jantar amanhã"
+                    ]
+                },
+                {
+                    "name": "NaoEntendi",
+                    "slots": [],
+                    "samples": [
+                        "o que o usuário ta falando",
+                        "quando não entender",
+                        "isso é lixo para cair nessa intenet",
+                        "aumenta aquilo",
+                        "aumenta isso",
+                        "comida",
+                        "comida pra oque",
+                        "é o que"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
