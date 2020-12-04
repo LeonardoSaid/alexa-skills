@@ -1,0 +1,36 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "blog d. m. card",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "LatestPostsIntent",
+                    "slots": [],
+                    "samples": [
+                        "novidades mais recentes",
+                        "quais são as notícias mais recentes",
+                        "últimas novidades",
+                        "quais são as últimas notícias"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
